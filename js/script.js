@@ -1,8 +1,8 @@
 
-function words() {
+function words(file) {
 
   $ajaxUtils
-    .sendGetRequest("../episode_12/data.txt", 
+    .sendGetRequest(file, 
       function (request) {
         var file = request.responseText;
 
