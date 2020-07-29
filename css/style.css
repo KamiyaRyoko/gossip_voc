@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin-left: 3em;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 2em;
+	color: #BF0060;
+}
+
+h2 {
+	text-align: center;
+	margin: 2em;
+	color: #005AB5;
+}
+
+h3 {
+	color: #9D9D9D;
+	font-size: 1em;
+}
+
+table, th, td {
+	text-align: center;
+	border: solid 1px gray;
+	border-collapse: collapse;
+	padding: 0.9em;
+}
+
+th {
+	background-color: #D0D0D0;
+}
+
+a:link, a:visited {
+	text-align: center;
+	color: #005AB5;
+	text-decoration: none;
+}
+
+a:hover, a:active{
+	color: #5CADAD;
+}
+
+button {
+	font-size: 1em;
+}
